@@ -1,0 +1,49 @@
+
+.tombol input:checked ~ .menu:nth-child(1){
+          opacity: 100%;
+}
+.tombol input:checked ~ .menu:nth-child(2){
+          opacity: 100%;
+}
+.tombol input:checked ~ .menu:nth-child(3){
+          opacity: 100%;
+}
+
+.menu{
+          position: absolute;
+          right: 10px;
+          width: 200px;
+          height: 200px;
+          background-color: grey;
+          transition: all .5s ease-in-out;
+
+}
+
+.menu span{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+}
+.menu span{
+          text-align: center;
+}
+.menu span a{
+         text-align: center;
+         text-decoration: none;
+         color: white;
+         display: inline-block;
+         font-size: 20px;
+}
+.tombol{
+          float: right;
+}
+.tombol input{
+          opacity: 0;
+}
+.tombol label{
+          padding-top: 10px;
+          color: black;
+
+}

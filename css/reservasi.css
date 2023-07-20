@@ -1,0 +1,321 @@
+*, html{
+          margin: 0;
+          padding: 0;
+          text-decoration: none;
+}
+
+.container{
+          width: 100%;
+          height: 100vh;
+}
+nav{
+          width: 100%;
+          height: 200px;
+          background-color: #00002e;
+          display: flex;
+          flex-direction: column;
+}
+.logo{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+}
+.logo img{
+          width: 200px;
+}
+
+.textlogo img{
+          width: 400px;
+}
+.textinput{
+          background-color: gray;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+
+.form{
+          height: 500px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 30px;
+          background-color: white;
+          line-height: 30px;
+          color: rgb(255, 255, 255);
+        }
+        .contact{
+          padding-top: 90px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #00002e;
+          padding: 20px;
+          border-radius: 10px;
+          gap: 50px;
+        }
+        .form span{
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          font-size: 30px;
+          gap: 50px;
+        }
+        .form label{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .form input{
+          padding: 5px;
+          width: 280px;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid black;
+          border-radius: 10px;
+        }
+        .form textarea{
+          padding: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 2px solid black;
+          border-radius: 10px;
+        }
+        
+        .btn{
+          padding-top: 20px;
+          display: flex;
+          justify-content: center;
+        }
+        .btn button{
+          padding: 5px;
+          width: 250px;
+          height: 50px;
+          text-decoration: none;
+          color: white;
+          background-color: transparent;
+          border: none;
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          font-size: 20px;
+          transition: all .5s;
+        }
+        .btn button:hover{
+          background-color: white;
+          color: #000;
+          transition: all .5s;
+        }
+        .form a:hover{
+          background-color: #fff;
+          border: 2px solid ;
+          color: #000;
+          transition: 0.5s;
+        }
+
+        .footer{
+          width: 100%;
+          height: 100vh;
+          background-color: white;
+}
+.info{
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: black;
+          gap: 30px;
+}
+.judul h1{
+          font-size: 50px;
+          text-transform: uppercase;
+}
+.box{
+          width: 400px;
+          height: 300px;
+          background-color: #00002e;
+          color: white;
+          text-align: center;
+          line-height: 45px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 20px;
+}
+.box span{
+          font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  *, html{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 200px;
+    background-color: #00002e;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+}
+
+.textlogo img{
+    width: 200px;
+}
+.textinput{
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: white;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .contact{
+
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00002e;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 50px;
+  }
+  .form span{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    gap: 50px;
+  }
+  .form label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form input{
+    padding: 5px;
+    width: 280px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  .form textarea{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .btn{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .btn button{
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .5s;
+  }
+  .btn button:hover{
+    background-color: white;
+    color: #000;
+    transition: all .5s;
+  }
+  .form a:hover{
+    background-color: #fff;
+    border: 2px solid ;
+    color: #000;
+    transition: 0.5s;
+  }
+
+  .footer{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.info{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 30px;
+}
+.judul h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: #00002e;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.box span{
+    font-size:15px;
+}
+}
